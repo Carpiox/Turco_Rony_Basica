@@ -5,6 +5,7 @@ export function Footer() {
     <footer className="bg-ink py-10 text-sm text-white/75">
       <div className="wrap space-y-6">
         <div>
+          <img src="/media/img/logo-256.webp" alt="Logo de Istambul Döner Kebab Cieza" width={96} height={96} loading="lazy" className="mb-3 h-24 w-24 rounded-full" />
           <p className="text-base font-bold text-white">{site.name}</p>
           <address className="mt-1 not-italic">{site.street}, {site.city}<br />
             <a href={`tel:${site.phone}`} className="underline underline-offset-4">{site.phoneDisplay}</a></address>
